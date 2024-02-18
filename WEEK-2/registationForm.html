@@ -1,0 +1,60 @@
+<html>
+<head>
+<body>
+<form> 
+    <label for ='name'> Name:</label><input type='text' name='username' placeholder='eg: Chakradhar' id='name'/>(Text input)<br><br>
+    <label for='fatherName'> Father's name:</label><input type='text' name="user's_father" id='fatherName'/>(Text input)<br><br>
+    <label for ='mothername'> Mothers's name:</label><input type='text' name="user's_Mother" id='mothername'/>(Text input)<br><br>
+ Date Of Birth: <input type='date' name='d.o.b'/>(Data input)<br><br>
+ Email: <input type='email' name='usermail'placeholder='example@gmail.com' required = "required"/>(email input)<br><br>
+ Mobile number: <input type='tel' name='mobilenumber' placeholder='9876543211' required='required'/>(tel input i.e., telephone number)
+<!--      Creating Radio  -->
+    <br><br> Gender: <input type='radio' name='gender'/> Male
+      <input type='radio' name='gender'/>Female
+      <input type='radio' name='gender'/>Others
+       ( Radio buttons type is radio)
+<br><br>Techincal Languages: (Check box .type is checkbox)<br><br>
+
+      <input type='checkbox'name='tlang'/>c programming<br>
+ <input type='checkbox' name='tlang'/>python programming
+ <br><input type='checkbox' name='tlang'/>Java progrmming
+   <br><input type='checkbox' name='tlang'/>HTML
+     <br>Password: <input type='password' name='userpassword' required='required'/>(Password input)<br><br> 
+
+<textarea name='comment' rows='5' cols='20' >Enter your comment..... </textarea>(Text area)<br>
+        
+<select name='dropdown' size='5' multiple='multiple' >
+  <optgroup label='alpa'disabled>
+  <option value='a'>a</option> 
+  <option value='b'>b</option>
+  <option value='c'>c</option>
+  <option value='d'>d</option> 
+  </optgroup>
+  <optgroup label='num'>
+  <option value='1'>1</option>
+  <option value='2'>2</option>
+  <option value='3'>3</option>
+  <option value='4'>4</option>
+  </optgroup>
+  </select >(Drop down list)<br><br>
+       
+<input type='file' name='file'/> <input type='image' src='https://cdn-icons-png.flaticon.com/512/1088/1088537.png' width='50' height='' />( Image button it is used as submit button)
+<br><br>           
+
+<fieldset  style="width: 170px;">
+<legend>contact details</legend>
+Email:<br>
+<input type='email' name='usermail' placeholder='email' style="width: 170px;"/> <br>
+<br>Mobile number:<br>
+ <input type='tel' name='mobilenumber'/>
+ <br> Address:<br>
+   <textarea name='address'>street 
+land mark:
+state:</textarea>
+ </fieldset>(Grouping Form Elements)
+
+
+<br><input type='submit' name='submit' value='SUBMIT'/> (submit button)
+</form>
+</body>
+</html>
