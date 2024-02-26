@@ -1,0 +1,73 @@
+
+#nav{
+    padding-top: 15px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+#logo{
+    color: #2F4F4F;
+    margin-left: 40px;
+    font-size: large;
+}
+#logo-1{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+#logoFistline{
+    display: flex;
+    align-items: center;
+}
+#logo-2{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+}
+#book-logo{
+    padding-left: 9px ;
+    width: 30px;
+}
+#logo-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Search{
+    display: flex;
+    align-items: center;
+}
+#input-bar{
+    width: 600px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: solid rgb(95, 94, 94) 2px;
+    margin-right: 0px;
+}
+::placeholder{
+    padding: 10px;
+    color: rgb(180, 173, 173);
+}
+#Search-icon{
+    width: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+#Search-button{
+    margin-left: -1px;
+    border: none;
+    /* background-color: white; */
+    border-radius: 10%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#rigth-nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
